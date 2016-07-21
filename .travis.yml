@@ -29,3 +29,6 @@ matrix:
 
   allow_failures:
     - rvm: ruby-head
+
+cache: bundler
+sudo: false
