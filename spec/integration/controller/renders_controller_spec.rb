@@ -2,7 +2,7 @@ require './spec/rails_helper'
 
 describe RendersController, type: :controller do
   let(:request_options) { {} }
-  subject(:response_body) { get :index, request_options; response.body }
+  subject(:response_body) { get :index, params: request_options; response.body }
 
   context '#index' do
     render_views
