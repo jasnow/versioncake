@@ -24,6 +24,10 @@ matrix:
 
   allow_failures:
     - rvm: ruby-head
+    - rvm: 1.9.3
+    - rvm: 2.0.0
+    - rvm: 2.1.0
+    - rvm: 2.2.5
 
 cache: bundler
 sudo: false
